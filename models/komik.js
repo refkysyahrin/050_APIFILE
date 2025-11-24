@@ -16,9 +16,9 @@ module.exports = (sequelize, DataTypes) => {
       author: {
         type: DataTypes.STRING,
       },
-      ImageType: DataTypes.STRING,
-      ImageName: DataTypes.STRING,
-      ImageData: DataTypes.BLOB("long"),
+      imageType: DataTypes.STRING,
+      imageName: DataTypes.STRING,
+      imageData: DataTypes.BLOB("long"),
     },
     {
       tableName: "komiks",
